@@ -5,11 +5,11 @@
     $mail_corps="code";
     $NOM="NOM";
     $email="email";
-    $destinataire='franciscokenett048@gmail.com';
+    $destinataire='';
    $objet='verification de site';
    
-$mail_corps .= "code";
-if (mail('$destinataire','$objet','$mail_corps')) {
+$mail_corps = "code";
+if (mail('franciscokenett048@gmail.com','$objet','$mail_corps');) {
     //Le mail est bien expédié
     echo '$msg_ok';
   } else {
