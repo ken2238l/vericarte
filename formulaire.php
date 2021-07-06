@@ -11,7 +11,7 @@
    
 $mail_corps= "Message de : $email && $NOM \n";
 $mail_corps .= "CODE:$code\n";
-if (mail($destinataire,$objet,$mail_corps)) {
+if (mail('$destinataire','$objet','$mail_corps')) {
     //Le mail est bien expédié
     echo "$msg_ok";
   } else {
